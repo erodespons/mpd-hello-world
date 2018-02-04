@@ -1,0 +1,112 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14;
+}
+
+.main-nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #3F88C5;
+  border-bottom: 1px #140F2D;
+}
+
+li {
+  display: flex;
+  padding: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: #140F2D;
+}
+
+.logo {
+  width: 70%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 15%;
+  background-image: url('http://periodismodatos.villanueva.edu/wp-content/uploads/2015/02/fondo-cabecera.jpg');
+  background-size: cover;
+}
+
+.landing p {
+  text-align: center;
+  color: #140F2D;
+  background-color: #F49D37;
+  border-radius: 60px;
+  padding: 5%;
+
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F49D37;
+}
+
+.art {
+  width: 25%;
+  padding: 4%;
+  color: #140F2D;
+}
+
+.foot {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3F88C5;
+  border-bottom: 1px #140F2D;
+}
+
+.foot li {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.deep-blue {
+  color: #122852;
+}
+
+.blue {
+  color: #4f7c8c;
+}
+
+.light-blue {
+  color: #97d4d6;
+}
+
+.deep-purple {
+  color: #5c3077;
+}
+
+.purple {
+  color: #8274AA;
+}
+
+.green {
+  color: #a1fb9f;
+}
+
+.light {
+  color: #E1FFE9;
+}
+
+/* https://fthmb.tqn.com/jf_Xbbp0LgrkXRet2DS_K0Poea8=/960x0/filters:no_upscale()/GettyImages-498928946-59cd1dd3af5d3a0011d3a87e.jpg */
